@@ -31,7 +31,7 @@ song_table_create = ("""CREATE TABLE IF NOT EXISTS songs(
                         title text,
                         artist_id text,
                         year int,
-                        duration numeric)""")
+                        duration float)""")
 
 artist_table_create = ("""CREATE TABLE IF NOT EXISTS artists(
                         artist_id text PRIMARY KEY,
