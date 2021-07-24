@@ -1,3 +1,5 @@
+#Variables for drop, create, insert, and selection statements
+
 # DROP TABLES
 
 songplay_table_drop = "DROP TABLE IF EXISTS songplays"
